@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KSAMClient">
+    <output-path>$PROJECT_DIR$/KSAMClient</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="KSAMClient.jar">
+      <element id="module-output" name="KSAMClient" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
